@@ -1,0 +1,29 @@
+.wrapper{
+    margin: 100px auto;
+    padding: 0;
+    border: 2px solid red;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    overflow-y: hidden;
+  
+    .product{
+        width: 200px;
+        margin: 20px;
+        text-align: center;
+        border: 1px solid blue;
+        
+    }
+
+    img {
+        width: auto;
+        height: 150px;
+        text-align: center;
+    }
+    
+    h3{
+        height: 50px;
+        text-align: center;
+        overflow-y: hidden;
+    }
+  }
